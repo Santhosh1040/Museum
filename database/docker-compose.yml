@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: museum_postgres
+
+    restart: unless-stopped
+
+    environment:
+      POSTGRES_DB: museum_db
+      POSTGRES_USER: museum_user
+      POSTGRES_PASSWORD: museum_password
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

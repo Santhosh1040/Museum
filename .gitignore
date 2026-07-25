@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environment
+venv/
+.env
+
+# Alembic
+alembic/versions/__pycache__/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
