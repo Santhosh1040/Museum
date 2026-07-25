@@ -21,7 +21,7 @@ function Artworks() {
 
   const fetchArtworks = async () => {
     try {
-      const response = await api.get("/artworks");
+      const response = await api.get("/artworks/");
       setArtworks(response.data);
     } catch (error) {
       console.error("Error fetching artworks:", error);

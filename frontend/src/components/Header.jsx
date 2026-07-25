@@ -10,23 +10,49 @@ function Header() {
           justifyContent: "space-between",
         }}
       >
-        <Box display="flex" alignItems="center" gap={1}>
+
+        {/* Logo + Title */}
+        <Box
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            gap: 1,
+          }}
+        >
           <MuseumIcon />
 
-          <Typography variant="h6" fontWeight="bold">
+          <Typography
+            variant="h6"
+            fontWeight="bold"
+          >
             Museum Collection Management
           </Typography>
         </Box>
 
-        <Box display="flex" alignItems="center" gap={1}>
-          <Avatar sx={{ width: 34, height: 34 }}>
+
+        {/* User */}
+        <Box
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            gap: 1,
+          }}
+        >
+          <Avatar
+            sx={{
+              width: 34,
+              height: 34,
+            }}
+          >
             A
           </Avatar>
 
           <Typography>
             Admin
           </Typography>
+
         </Box>
+
       </Toolbar>
     </AppBar>
   );
