@@ -16,9 +16,9 @@ https://museum-production-fa64.up.railway.app/docs
 
 ## Project Overview
 
-This project is a web application for managing museum collection records. It allows users to log in and work with artist and artwork data through a simple interface.
+This project is a web application for managing museum collection records through a simple and structured interface.
 
-The application supports viewing, adding, updating, and deleting records, along with bulk operations for handling multiple records. A dashboard is also included to provide an overview of the collection stored in the database.
+The application allows users to view, add, update, and delete artist and artwork records. It also supports bulk operations for handling multiple records and provides a dashboard to summarize the collection stored in the database.
 
 The project uses the Museum Collection dataset from Kaggle and focuses on two main entities:
 
@@ -52,11 +52,9 @@ https://www.kaggle.com/datasets/momanyc/museum-collection/data?select=artworks.c
 
 ## Features
 
-### Authentication
+### Museum Collection Management
 
-The application includes a simple username and password-based login system.
-
-After successful authentication, users can access the museum management interface.
+The application provides an interface to manage museum collection records stored in the database.
 
 
 ### Artist Management
