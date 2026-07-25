@@ -94,3 +94,34 @@ It displays:
 
 
 ## Project Structure
+
+```
+museum-app/
+│
+├── backend/
+│   ├── app/
+│   │   ├── crud/
+│   │   ├── models/
+│   │   ├── routers/
+│   │   ├── schemas/
+│   │   ├── database.py
+│   │   └── main.py
+│   │
+│   ├── dataset/
+│   ├── seed.py
+│   ├── requirements.txt
+│   └── Dockerfile
+│
+├── frontend/
+│   ├── src/
+│   │   ├── api/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── styles/
+│   │   └── App.jsx
+│   │
+│   ├── package.json
+│   └── vite.config.js
+│
+└── README.md
+```
